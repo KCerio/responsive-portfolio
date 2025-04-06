@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Developer Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <!-- Top Navigation Section -->
+    <header>
+        <a href="#hero" class="logo">Kristine/Dev</a>
+
+        <div>          
+          <!-- Burger Menu (Checkbox for Toggle) -->
+          <input type="checkbox" id="menu-toggle" aria-label="Toggle navigation menu" />
+          <label for="menu-toggle" class="burger">
+              <i class="fa-solid fa-bars"></i>
+          </label>
+          
+          <nav>
+              <a href="#" class="active">Home</a>
+              <a href="#skills">Skills</a>
+              <a href="#projects">Projects</a>
+              <a href="#contact">Contact</a>
+          </nav>
+
+          
+        </div>
+    </header>
+
+  <!-- Parallax Section -->
+  <section class="parallax">
+    <h2>My Developer Portfolio</h2>
+  </section>
+
+  <!-- Hero Section -->
+    <section id="hero">
+        <div class="home-img">
+            <img src="images/Self_pic.png" alt="Self_pic">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Kristine Cerio</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>Dedicated with a passion for creating intuitive and efficient applications. I enjoy tackling real-world challenges through innovative coding solutions, bringing ideas to life with clean and scalable code.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/kristine-faye-cerio-3739aa306/" aria-label="linkedin"><i class="fa-brands fa-linkedin"></i> </a>
+                <a href="https://github.com/KCerio" aria-label="github"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.facebook.com/kristinefaye.cerio/" aria-label="facebook"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Key Skills and Characteristics</h2>
+    <div class="skills-container">
+      
+      <div class="skill-group">
+        <h3>Technical Skills</h3>
+        <div class="skills-list">
+          <div class="skill"><img src="images/software and web development.png" alt="Software/Web Dev">Software and Web Development (Flutter)</div>
+          <div class="skill"><img src="images/database management.png" alt="Database">Database Management (MySQL, Firebase)</div>
+          <div class="skill"><img src="images/ui design.png" alt="UI/UX">UI/UX Design</div>
+          <div class="skill"><img src="images/wireframe-prototype.png" alt="Wireframing/Prototyping">Wireframing and Prototyping</div>
+        </div>
+      </div>
+  
+      <div class="skill-group">
+        <h3>Programming Languages and Tools</h3>
+        <div class="skills-list">
+          <div class="skill"><img src="images/java.png" alt="Java">Java</div>
+          <div class="skill"><img src="images/python.png" alt="Python">Python</div>
+          <div class="skill"><img src="images/figma.png" alt="Figma">Figma</div>
+          <div class="skill"><img src="images/flutter.png" alt="Flutter">Flutter</div>
+          <div class="skill"><img src="images/unity.png" alt="Unity">Unity</div>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3>Characteristics</h3>
+        <div class="skills-list">
+          <div class="skill"><img src="images/critical thinking.png" alt="Thinking">Critical Thinking and Decision-Making</div>
+          <div class="skill"><img src="images/organization and time management.png" alt="Management">Organization and Time Management</div>
+          <div class="skill"><img src="images/leadership.png" alt="Leadership">Leadership Skills</div>
+          <div class="skill"><img src="images/teamwork.png" alt="Teamwork">Teamwork and Collaboration</div>
+          <div class="skill"><img src="images/problem solving.png" alt="Problem-solving">Problem-solving Abilities</div>
+          <div class="skill"><img src="images/execellent communication.png" alt="Communication">Excellent Communication</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-container">
+        <div id="projectPC" class="project-card">
+          <div class="project-img">
+            <img src="images/Haul-A-Day.png" alt="project1_img">
+          </div>
+          <h3>HAUL-A-DAY SOFTWARE</h3>
+          <p>Web app for a simple trucking operations, managing orders, schedules, and payroll. Built using Flutter and Firebase.</p>
+        </div>
+
+        <div id="projectMobile" class="project-card">
+          <div class="project-img">
+            <img src="images/Haul-a-Day Mobile.png" alt="project2_img">
+          </div>
+          <h3>HAUL-A-DAY MOBILE</h3>
+          <p>A mobile counterpart of the Haul-A-Day software, allowing operational staff to check their assigned schedules and submit delivery reports for each delivery. Built using Flutter and Firebase.</p>
+        </div>
+
+        <div id="projectMobile" class="project-card">
+          <div class="project-img">
+            <img src="images/ARxplorer.png" alt="project2_img">
+          </div>
+          <h3>ARXPLORER</h3>
+          <p>AR app for UP Cebu navigation, providing landmark directions and site info.  Built using Unity.</p>
+        </div>
+
+        <div id="projectPC" class="project-card">
+          <div class="project-img">
+            <img src="images/UniqKo.png" alt="project3_img">
+          </div>
+          <h3>UNIQKO Game</h3>
+          <p>A fast-paced word LAN game where players submit unique words for random categories. Built using Python.</p>
+        </div>
+
+        <div id="projectPC" class="project-card">
+          <div class="project-img">
+            <img src="images/Subside.png" alt="project3_img">
+          </div>
+          <h3>SURVIVORS’ BASIC IDE (SUBSIDE)</h3>
+          <p>An IDE for compiling a custom programming language in assembly with basic arithmetic, file management, and text editing. Built with Java, IntelliJ, and MIPS.</p>
+        </div>
+    
+    </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Developer Portfolio</p>
+  </footer>
+</body>
+</html>
