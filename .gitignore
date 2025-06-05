@@ -1,0 +1,10 @@
+# Node.js/npm files
+node_modules/
+package-lock.json
+package.json
+
+# Editor/config files
+.hintrc
+
+# Line ending normalization (fix LF/CRLF warnings)
+* text=auto
